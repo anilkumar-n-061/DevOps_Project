@@ -183,7 +183,7 @@ sudo apt-get install terraform -y
     ```
     
 1. Setup kubectl   
-   a. Download kubectl version latest 
+   a. Download kubectl version latest.
    b. Grant execution permissions to kubectl executable   
    c. Move kubectl onto /usr/local/bin   
    d. Test that your kubectl installation was successful    
