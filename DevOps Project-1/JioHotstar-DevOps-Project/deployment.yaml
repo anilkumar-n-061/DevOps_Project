@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hotstar-deployment
+spec:
+  selector:
+    matchLabels:
+      app: hotstar
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: hotstar
+    spec:
+      containers:
+      - name: hotstar
+        image: anilkumar-061/jiohotstar:20250409
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        # Adding health checks (customize the path and port as needed)
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "500m"
+          limits:
+            memory: "512Mi"
+            cpu: "1"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hotstar-service  # Updated name for clarity
+spec:
+  selector:
+    app: hotstar
+  ports:
+  - protocol: "TCP"
+    port: 80
+    targetPort: 3000
+  type: LoadBalancer
