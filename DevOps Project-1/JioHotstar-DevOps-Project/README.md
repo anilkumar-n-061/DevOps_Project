@@ -410,8 +410,6 @@ kubectl describe secret/mysecretname -n microdegree
 
 ## Step7: Add Tools for Java & NodejS
 
-<img width="1652" height="661" alt="image" src="https://github.com/user-attachments/assets/0228e334-6dea-4005-96c7-5d74008b22eb" />
-
 <img width="1483" height="773" alt="nodejs" src="https://github.com/user-attachments/assets/9a9ce220-9559-4032-a4b6-1a8baba8ce23" />
 
 #### Add Role to Admin Server 
