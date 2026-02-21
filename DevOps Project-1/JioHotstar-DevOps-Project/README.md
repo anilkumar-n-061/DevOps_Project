@@ -470,7 +470,7 @@ Advanced-credentials-->username and password --> gmail and app password + check 
 
 ## Jio Hotstar Web Page
 
-url:http://af51eb587f6444a30b43ece4a189b100-1821373873.us-east-1.elb.amazonaws.com/
+url: http://a38ce6e2fde284505bdb796a8398f3cf-481808960.us-east-1.elb.amazonaws.com/
 
 <img width="1584" height="699" alt="image" src="https://github.com/user-attachments/assets/3e28fc21-c95b-4d03-b8ae-53b225250c54" />
 
